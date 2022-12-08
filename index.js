@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
 
-app.listen(() => console.log("Tax bot By Unknown"));
+app.listen(() => console.log("Tax bot By Rayan"));
 
 ///coded by : Unknowm
 const Discord = require('discord.js');
 const client = new Discord.Client();
-///coded by : Unknowm
+///coded by : Rayan
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(">| Stats :-");
@@ -17,12 +17,12 @@ client.on("ready", () => {
   console.log(`> ${new Date()}`);
   console.log(">| Name :");
   console.log(`> ${client.user.username}`);
-  client.user.setActivity('Tax Bot By Unknown ', ({type: "Playing"})) //Playing Bot
+  client.user.setActivity('Tax Bot By Rayan ', ({type: "LISTENING"}))
 });
  
  
 client.on("message", async message => {
-///coded by : Unknowm
+///coded by : Rayan
 
    
 const prefix = "#";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
@@ -33,29 +33,22 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
     .join(" "); if (message.author.bot) return;
   if (!message.guild) return;
   if (!message.content.startsWith(prefix)) return;
-///coded by : Unknowm
+///coded by : Rayan
   if (message.content.toLowerCase().startsWith(prefix + "help".toLowerCase())) { 
     let help = new Discord.MessageEmbed()
       .setColor("0x5016f3")
       .setDescription(`**( Probot Taxs . :rocket: )
       
         --------------------------------------------------
-                
                Probot Commands :
                 
                1-  ${prefix}tax 
-               2-  ${prefix}wa 
-               
-               Developers Commands :
-               1- ${prefix}settings 
-               
-
         --------------------------------------------------
-        Developers : <@978399486378377258>
+        Developers : <@841245687533535242>
             **`);
     message.channel.send(help);
   }
-///coded by : Unknowm
+///coded by : Rayan
   if (message.content.toLowerCase().startsWith(prefix + "wa".toLowerCase())) { 
     let args2 = parseInt(args)
     let tax = Math.floor(args2 * (20) / (19) + (1))
@@ -136,7 +129,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
 
   
 
-///coded by : Unknowm
+///coded by : Rayan
  
   
 let ac = ["listening", "watching", "playing", "streaming","default"];
@@ -167,7 +160,7 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
     }
   }
 
-///coded by : Unknowm  
+///coded by : Rayan  
   
       if (message.content === prefix + "ping") {
         const betha = new Discord.MessageEmbed()
@@ -180,7 +173,7 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 });
 
 
-///coded by : Unknowm
+///coded by : Rayan
 
 
 client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
