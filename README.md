@@ -1,6 +1,4 @@
-# Tax Bot By Unknown
+# Tax Bot By Rayan
 
-# Coded By Unknown
-
-
-# Hiwadarm Naikai Ba Hi Xot
+# Link Server 
+https://discord.gg/mfB9CeJJH7
