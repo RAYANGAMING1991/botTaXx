@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.listen(() => console.log("Tax bot By Rayan"));
+app.listen(() => console.log("Tax bot By maTa"));
 
 ///coded by : Unknowm
 const Discord = require('discord.js');
@@ -44,7 +44,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
                 
                1-  ${prefix}tax 
         --------------------------------------------------
-        Developers : <@841245687533535242>
+        Developers : <@892654825169354793>
             **`);
     message.channel.send(help);
   }
