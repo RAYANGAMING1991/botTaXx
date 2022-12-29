@@ -25,7 +25,7 @@ client.on("message", async message => {
 ///coded by : Rayan
 
    
-const prefix = "#";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
+const prefix = "?";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
 const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
   let args = message.content
     .split(" ")
@@ -176,4 +176,4 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 ///coded by : Rayan
 
 
-client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
+client.login("OTY0NDgxODI3OTk1ODA3NzU0.G-eodp.jSVvO1h4CFX8YR8_6DlbD-QosbkHgkNg6tSMyw"); //Your Bot Token & تۆکین لە لێرە دابنێ
