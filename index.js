@@ -26,7 +26,7 @@ client.on("message", async message => {
 
    
 const prefix = "?";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
-const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
+const devs = "964481827995807754";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
   let args = message.content
     .split(" ")
     .slice(1)
